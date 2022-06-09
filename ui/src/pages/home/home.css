@@ -1,0 +1,78 @@
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+.card-body {
+    margin-bottom: 25px;
+}
+
+.card-text {
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 160px; 
+    height: 1.2em; 
+    white-space: nowrap;
+
+}
+  
+  .img-profile {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 38px 10px 0px 15px;
+  }
+  
+  .in-box {
+    margin-top: 20px;
+  }
+  
+  .in-msg {
+    background-color: rgb(7, 205, 4);
+    border-radius: 10%;
+    padding: 8%;
+  
+  }
+  
+  .img-msg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+  }
+  
+  .out-msg {
+    background-color: rgb(66, 135, 238);
+    border-radius: 10%;
+    padding: 8%;
+  
+  }
+  
+  .out-img-msg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 90%;
+  }
+  .out-box {
+    margin-top: 20px;
+  }
+  
+  .conv-box {
+    height: 590px;
+    overflow:scroll;
+  }
+  
+  .msg-input {
+    position: inherit;
+  }
+  
+  .conv-friends {
+    height: 640px;
+    overflow:scroll;
+  }
+  
+  .msg-center {
+    padding: 10px;
+  }
+  
